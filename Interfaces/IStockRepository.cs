@@ -10,5 +10,7 @@ namespace FinShark.Interfaces
         Task<Stock> CreateAsync(Stock stockmodel);
         Task<Stock?> UpdateAsync(int idk, UpdateStockRequestDto stockDto);
         Task<Stock?> DeleteAsync(int id);
+
+        Task<bool> Exists(int id);
     }
 }

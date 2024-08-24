@@ -16,7 +16,7 @@ namespace FinShark.Repository
 
         public async Task<List<Stock>> GetAllAsync()
         {
-            return await _context.Stocks.Include(c=> c.Comments).ToListAsync();
+            return await _context.Stocks.Include(c => c.Comments).ToListAsync();
         }
 
         public async Task<Stock> CreateAsync(Stock stockModel)
@@ -51,7 +51,7 @@ namespace FinShark.Repository
         public async Task<Stock?> UpdateAsync(int id, UpdateStockRequestDto stockDto)
         {
             var existingStock = await _context.Stocks.FirstOrDefaultAsync(x => x.Id == id);
-            
+
             if (existingStock == null)
             {
                 return null;
@@ -67,6 +67,11 @@ namespace FinShark.Repository
             await _context.SaveChangesAsync();
 
             return existingStock;
+        }
+
+        public async Task<bool> Exists(int id)
+        {
+            return await _context.Stocks.AnyAsync(s => s.Id == id);
         }
     }
 }
