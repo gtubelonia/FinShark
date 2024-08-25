@@ -47,6 +47,11 @@ namespace FinShark.Controllers
         [HttpPost]
         public async Task<IActionResult> Create([FromBody] CreateStockRequestDto stockDto)
         {
+            if (!ModelState.IsValid)
+            {
+                return BadRequest(ModelState);
+            }
+
             var stockModel = stockDto.ToStockFromCreateDto();
 
             await _stockRepository.CreateAsync(stockModel);
@@ -58,6 +63,11 @@ namespace FinShark.Controllers
         [Route("{id:int}")]
         public async Task<IActionResult> Update([FromRoute] int id, [FromBody] UpdateStockRequestDto updateDto)
         {
+            if (!ModelState.IsValid)
+            {
+                return BadRequest(ModelState);
+            }
+
             var stockModel = await _stockRepository.UpdateAsync(id, updateDto);
             if (stockModel == null)
             {
@@ -71,6 +81,7 @@ namespace FinShark.Controllers
         [Route("{id:int}")]
         public async Task<IActionResult> Delete([FromRoute] int id)
         {
+
             var stockModel = await _stockRepository.DeleteAsync(id);
 
             if (stockModel == null)
