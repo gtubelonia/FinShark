@@ -32,7 +32,7 @@ namespace FinShark.Service
                 Subject = new ClaimsIdentity(claims),
                 Expires = DateTime.Now.AddDays(1),
                 SigningCredentials = encryption,
-                Issuer = _config["JWT:Iusser"],
+                Issuer = _config["JWT:Issuer"],
                 Audience = _config["JWT:Audience"]
             };
 

@@ -4,6 +4,7 @@ using FinShark.Helpers;
 using FinShark.Interfaces;
 using FinShark.Mappers;
 using FinShark.Repository;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
@@ -21,11 +22,11 @@ namespace FinShark.Controllers
         }
 
         [HttpGet]
+        [Authorize]
         public async Task<IActionResult> GetAll([FromQuery] QueryObject query)
         {
             //Deferred execution.
             var stocks = await _stockRepository.GetAllAsync(query);
-
 
             var stockDto = stocks.Select(s => s.ToStockDto());
             return Ok(stockDto);
