@@ -1,5 +1,6 @@
 using FinShark.Data;
 using FinShark.Interfaces;
+using FinShark.Migrations;
 using FinShark.Models;
 using FinShark.Repository;
 using FinShark.Service;
@@ -85,6 +86,7 @@ builder.Services.AddAuthentication(options =>
 });
 
 builder.Services.AddScoped<IStockRepository, StockRepository>();
+builder.Services.AddScoped<IPortfolioRepository, PortfolioRepository>();
 builder.Services.AddScoped<ICommentRepository, CommentRepository>();
 builder.Services.AddScoped<ITokenService, TokenService>();
 builder.Services.AddControllers()

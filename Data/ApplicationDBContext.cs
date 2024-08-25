@@ -23,7 +23,7 @@ namespace FinShark.Data
             builder.Entity<StockPortfolio>(s => s.HasKey(p => new { p.AppUserId, p.StockId }));
 
             builder.Entity<StockPortfolio>()
-                .HasOne(u => u.Appuser)
+                .HasOne(u => u.AppUser)
                 .WithMany(p => p.StockPortfolios)
                 .HasForeignKey(u => u.AppUserId);
 
