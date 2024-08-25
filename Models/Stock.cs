@@ -2,7 +2,7 @@
 
 namespace FinShark.Models
 {
-
+    [Table("Stock")]
     public class Stock
     {
         public int Id { get; set; }
@@ -16,5 +16,7 @@ namespace FinShark.Models
         public long MarketCap { get; set; }
 
         public List<Comment> Comments { get; set; } = new List<Comment>();
+        public List<StockPortfolio> StockPortfolios { get; set; } = new List<StockPortfolio>();
+
     }
 }

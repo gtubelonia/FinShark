@@ -14,10 +14,23 @@ namespace FinShark.Data
 
         public DbSet<Stock> Stocks { get; set; }
         public DbSet<Comment> Comments { get; set; }
+        public DbSet<StockPortfolio> StockPortfolios { get; set; }
 
         protected override void OnModelCreating(ModelBuilder builder)
         {
             base.OnModelCreating(builder);
+
+            builder.Entity<StockPortfolio>(s => s.HasKey(p => new { p.AppUserId, p.StockId }));
+
+            builder.Entity<StockPortfolio>()
+                .HasOne(u => u.Appuser)
+                .WithMany(p => p.StockPortfolios)
+                .HasForeignKey(u => u.AppUserId);
+
+            builder.Entity<StockPortfolio>()
+                .HasOne(u => u.Stock)
+                .WithMany(p => p.StockPortfolios)
+                .HasForeignKey(u => u.StockId);
 
             List<IdentityRole> roles = new List<IdentityRole>
             {
