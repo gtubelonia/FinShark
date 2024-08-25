@@ -2,6 +2,7 @@ using FinShark.Data;
 using FinShark.Interfaces;
 using FinShark.Models;
 using FinShark.Repository;
+using FinShark.Service;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
@@ -56,6 +57,7 @@ builder.Services.AddAuthentication(options =>
 
 builder.Services.AddScoped<IStockRepository, StockRepository>();
 builder.Services.AddScoped<ICommentRepository, CommentRepository>();
+builder.Services.AddScoped<ITokenService, TokenService>();
 builder.Services.AddControllers()
    .AddNewtonsoftJson(options =>
     {
