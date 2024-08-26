@@ -28,5 +28,26 @@ namespace FinShark.Repository
 
                 }).ToListAsync();
         }
+
+        public async Task<StockPortfolio> CreateAsync(StockPortfolio portfolio)
+        {
+            await _context.StockPortfolios.AddAsync(portfolio);
+            await _context.SaveChangesAsync();
+            return portfolio;
+        }
+
+        public async Task<StockPortfolio> DeleteAsync(AppUser appUser, string symbol)
+        {
+            var portfolioModel = await _context.StockPortfolios.FirstOrDefaultAsync(x => x.AppUserId == appUser.Id && x.Stock.Symbol.ToLower() == symbol.ToLower());
+            if (portfolioModel == null)
+            {
+                return null;
+            }
+
+            _context.StockPortfolios.Remove(portfolioModel);
+            await _context.SaveChangesAsync();
+
+            return portfolioModel;
+        }
     }
 }
