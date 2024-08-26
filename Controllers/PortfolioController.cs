@@ -1,6 +1,8 @@
 ﻿using FinShark.Extension;
 using FinShark.Interfaces;
 using FinShark.Models;
+using FinShark.Repository;
+using FinShark.Service;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Identity;
@@ -17,12 +19,14 @@ namespace FinShark.Controllers
         private readonly UserManager<AppUser> _userManager;
         private readonly IStockRepository _stockRepo;
         private readonly IPortfolioRepository _portfolioRepo;
+        private readonly IFMPService _fmpService;
 
-        public PortfolioController(UserManager<AppUser> userManager, IStockRepository stockRepo, IPortfolioRepository portfolioRepo)
+        public PortfolioController(UserManager<AppUser> userManager, IStockRepository stockRepo, IPortfolioRepository portfolioRepo, IFMPService fmpService)
         {
             _userManager = userManager;
             _stockRepo = stockRepo;
             _portfolioRepo = portfolioRepo;
+            _fmpService = fmpService;
         }
 
         [HttpGet]
@@ -36,9 +40,9 @@ namespace FinShark.Controllers
             return Ok(userPortfolio);
         }
 
-        [HttpPost]
+        [HttpPost("{symbol:alpha}")]
         [Authorize]
-        public async Task<IActionResult> AddPortfolio(string symbol)
+        public async Task<IActionResult> AddPortfolio([FromRoute] string symbol)
         {
             var username = User.GetUsername();
             var appUser = await _userManager.FindByNameAsync(username);
@@ -46,7 +50,16 @@ namespace FinShark.Controllers
 
             if (stock == null)
             {
-                return BadRequest("Symbol not found");
+                stock = await _fmpService.FindStockBySymbolAsync(symbol);
+
+                if (stock == null)
+                {
+                    return BadRequest("This stock does not exist");
+                }
+                else
+                {
+                    await _stockRepo.CreateAsync(stock);
+                }
             }
 
             var userPortfolio = await _portfolioRepo.GetUserPortfolio(appUser);
@@ -82,7 +95,7 @@ namespace FinShark.Controllers
 
             var filteredStock = userPortfolio.Where(s => s.Symbol.ToLower() == symbol.ToLower()).ToList();
 
-            if(filteredStock.Count() == 1)
+            if (filteredStock.Count() == 1)
             {
                 await _portfolioRepo.DeleteAsync(appUser, symbol);
             }

@@ -33,5 +33,18 @@ namespace FinShark.Mappers
                 MarketCap = CreateStockRequestDto.MarketCap
             };
         }
+
+        public static Stock ToStockFromFmp(this FMPStock fmpStock)
+        {
+            return new Stock
+            {
+                Symbol = fmpStock.symbol,
+                CompanyName = fmpStock.companyName,
+                Purchase = (decimal)fmpStock.price,
+                LastDiv = (decimal)fmpStock.lastDiv,
+                Industry = fmpStock.industry,
+                MarketCap = fmpStock.mktCap
+            };
+        }
     }
 }
