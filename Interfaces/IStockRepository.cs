@@ -6,7 +6,7 @@ namespace FinShark.Interfaces
 {
     public interface IStockRepository
     {
-        Task<List<Stock>> GetAllAsync(QueryObject query);
+        Task<List<Stock>> GetAllAsync(StockQueryObject query);
         Task<Stock?> GetBySymbolAsync(string symbol);
         Task<Stock?> GetByIdAsync(int id);
         Task<Stock> CreateAsync(Stock stockmodel);
