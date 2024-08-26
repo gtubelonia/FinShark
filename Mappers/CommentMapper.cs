@@ -14,6 +14,7 @@ namespace FinShark.Mappers
                 Title = commentModel.Title,
                 Content = commentModel.Content,
                 CreatedOn = commentModel.CreatedOn.Date,
+                CreatedBy = commentModel.AppUser.UserName,
                 StockId = commentModel.StockId
             };
         }

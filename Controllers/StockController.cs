@@ -25,7 +25,11 @@ namespace FinShark.Controllers
         [Authorize]
         public async Task<IActionResult> GetAll([FromQuery] QueryObject query)
         {
-            //Deferred execution.
+            if (!ModelState.IsValid)
+            {
+                return BadRequest(ModelState);
+            }
+
             var stocks = await _stockRepository.GetAllAsync(query);
 
             var stockDto = stocks.Select(s => s.ToStockDto());
