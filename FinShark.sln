@@ -4,6 +4,10 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 17.11.35219.272
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "api", "api", "{320773FC-F30E-46E8-B4AD-6CCFE4A4BD99}"
+	ProjectSection(SolutionItems) = preProject
+		api\.gitattributes = api\.gitattributes
+		api\.gitignore = api\.gitignore
+	EndProjectSection
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FinShark", "api\FinShark.csproj", "{86689CC4-6044-46CD-9E42-A5C9A4F97402}"
 EndProject
