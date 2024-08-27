@@ -3,59 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\Gtube\\source\\repos\\FinShark\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0BBCA86C-66B7-446B-BE10-9886EC1F6E32}|frontend\\FinShark\\finshark.esproj|c:\\users\\gtube\\source\\repos\\finshark\\frontend\\finshark\\eslint.config.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{0BBCA86C-66B7-446B-BE10-9886EC1F6E32}|frontend\\FinShark\\finshark.esproj|solutionrelative:frontend\\finshark\\eslint.config.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+      "AbsoluteMoniker": "D:0:0:{86689CC4-6044-46CD-9E42-A5C9A4F97402}|api\\FinShark.Server.csproj|c:\\users\\gtube\\source\\repos\\finshark\\api\\finshark.server.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{86689CC4-6044-46CD-9E42-A5C9A4F97402}|api\\FinShark.Server.csproj|solutionrelative:api\\finshark.server.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0BBCA86C-66B7-446B-BE10-9886EC1F6E32}|frontend\\FinShark\\finshark.esproj|c:\\users\\gtube\\source\\repos\\finshark\\frontend\\finshark\\src\\api.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
-      "RelativeMoniker": "D:0:0:{0BBCA86C-66B7-446B-BE10-9886EC1F6E32}|frontend\\FinShark\\finshark.esproj|solutionrelative:frontend\\finshark\\src\\api.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+      "AbsoluteMoniker": "D:0:0:{975D2B9B-487B-4738-8802-4F1949B6642F}|frontend\\finshark.client.esproj|c:\\users\\gtube\\source\\repos\\finshark\\frontend\\vite.config.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{975D2B9B-487B-4738-8802-4F1949B6642F}|frontend\\finshark.client.esproj|solutionrelative:frontend\\vite.config.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0BBCA86C-66B7-446B-BE10-9886EC1F6E32}|frontend\\FinShark\\finshark.esproj|c:\\users\\gtube\\source\\repos\\finshark\\frontend\\finshark\\package.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{0BBCA86C-66B7-446B-BE10-9886EC1F6E32}|frontend\\FinShark\\finshark.esproj|solutionrelative:frontend\\finshark\\package.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0BBCA86C-66B7-446B-BE10-9886EC1F6E32}|frontend\\FinShark\\finshark.esproj|c:\\users\\gtube\\source\\repos\\finshark\\frontend\\finshark\\tsconfig.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{0BBCA86C-66B7-446B-BE10-9886EC1F6E32}|frontend\\FinShark\\finshark.esproj|solutionrelative:frontend\\finshark\\tsconfig.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0BBCA86C-66B7-446B-BE10-9886EC1F6E32}|frontend\\FinShark\\finshark.esproj|c:\\users\\gtube\\source\\repos\\finshark\\frontend\\finshark\\src\\pages\\loginpage\\loginpage.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
-      "RelativeMoniker": "D:0:0:{0BBCA86C-66B7-446B-BE10-9886EC1F6E32}|frontend\\FinShark\\finshark.esproj|solutionrelative:frontend\\finshark\\src\\pages\\loginpage\\loginpage.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Gtube\\Downloads\\FinSharkTeddy-master\\FinSharkTeddy-master\\frontend\\tsconfig.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0BBCA86C-66B7-446B-BE10-9886EC1F6E32}|frontend\\FinShark\\finshark.esproj|c:\\users\\gtube\\source\\repos\\finshark\\frontend\\finshark\\src\\components\\companyprofile\\companyprofile.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
-      "RelativeMoniker": "D:0:0:{0BBCA86C-66B7-446B-BE10-9886EC1F6E32}|frontend\\FinShark\\finshark.esproj|solutionrelative:frontend\\finshark\\src\\components\\companyprofile\\companyprofile.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0BBCA86C-66B7-446B-BE10-9886EC1F6E32}|frontend\\FinShark\\finshark.esproj|c:\\users\\gtube\\source\\repos\\finshark\\frontend\\finshark\\src\\components\\card\\card.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
-      "RelativeMoniker": "D:0:0:{0BBCA86C-66B7-446B-BE10-9886EC1F6E32}|frontend\\FinShark\\finshark.esproj|solutionrelative:frontend\\finshark\\src\\components\\card\\card.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0BBCA86C-66B7-446B-BE10-9886EC1F6E32}|frontend\\FinShark\\finshark.esproj|c:\\users\\gtube\\source\\repos\\finshark\\frontend\\finshark\\src\\components\\compfinder\\compfinder.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
-      "RelativeMoniker": "D:0:0:{0BBCA86C-66B7-446B-BE10-9886EC1F6E32}|frontend\\FinShark\\finshark.esproj|solutionrelative:frontend\\finshark\\src\\components\\compfinder\\compfinder.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0BBCA86C-66B7-446B-BE10-9886EC1F6E32}|frontend\\FinShark\\finshark.esproj|c:\\users\\gtube\\source\\repos\\finshark\\frontend\\finshark\\src\\routes\\routes.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
-      "RelativeMoniker": "D:0:0:{0BBCA86C-66B7-446B-BE10-9886EC1F6E32}|frontend\\FinShark\\finshark.esproj|solutionrelative:frontend\\finshark\\src\\routes\\routes.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0BBCA86C-66B7-446B-BE10-9886EC1F6E32}|frontend\\FinShark\\finshark.esproj|c:\\users\\gtube\\source\\repos\\finshark\\frontend\\finshark\\src\\context\\useauth.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
-      "RelativeMoniker": "D:0:0:{0BBCA86C-66B7-446B-BE10-9886EC1F6E32}|frontend\\FinShark\\finshark.esproj|solutionrelative:frontend\\finshark\\src\\context\\useauth.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0BBCA86C-66B7-446B-BE10-9886EC1F6E32}|frontend\\FinShark\\finshark.esproj|c:\\users\\gtube\\source\\repos\\finshark\\frontend\\finshark\\src\\models\\user.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
-      "RelativeMoniker": "D:0:0:{0BBCA86C-66B7-446B-BE10-9886EC1F6E32}|frontend\\FinShark\\finshark.esproj|solutionrelative:frontend\\finshark\\src\\models\\user.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0BBCA86C-66B7-446B-BE10-9886EC1F6E32}|frontend\\FinShark\\finshark.esproj|c:\\users\\gtube\\source\\repos\\finshark\\frontend\\finshark\\src\\services\\authservice.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
-      "RelativeMoniker": "D:0:0:{0BBCA86C-66B7-446B-BE10-9886EC1F6E32}|frontend\\FinShark\\finshark.esproj|solutionrelative:frontend\\finshark\\src\\services\\authservice.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0BBCA86C-66B7-446B-BE10-9886EC1F6E32}|frontend\\FinShark\\finshark.esproj|c:\\users\\gtube\\source\\repos\\finshark\\frontend\\finshark\\src\\app.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
-      "RelativeMoniker": "D:0:0:{0BBCA86C-66B7-446B-BE10-9886EC1F6E32}|frontend\\FinShark\\finshark.esproj|solutionrelative:frontend\\finshark\\src\\app.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+      "AbsoluteMoniker": "D:0:0:{975D2B9B-487B-4738-8802-4F1949B6642F}|frontend\\finshark.client.esproj|c:\\users\\gtube\\source\\repos\\finshark\\frontend\\.vscode\\launch.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{975D2B9B-487B-4738-8802-4F1949B6642F}|frontend\\finshark.client.esproj|solutionrelative:frontend\\.vscode\\launch.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -65,138 +22,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 3,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "api.tsx",
-              "DocumentMoniker": "C:\\Users\\Gtube\\source\\repos\\FinShark\\frontend\\FinShark\\src\\api.tsx",
-              "RelativeDocumentMoniker": "frontend\\FinShark\\src\\api.tsx",
-              "ToolTip": "C:\\Users\\Gtube\\source\\repos\\FinShark\\frontend\\FinShark\\src\\api.tsx",
-              "RelativeToolTip": "frontend\\FinShark\\src\\api.tsx",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAAB0AAAAvAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
-              "WhenOpened": "2024-08-27T18:17:35.393Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "package.json",
-              "DocumentMoniker": "C:\\Users\\Gtube\\source\\repos\\FinShark\\frontend\\FinShark\\package.json",
-              "RelativeDocumentMoniker": "frontend\\FinShark\\package.json",
-              "ToolTip": "C:\\Users\\Gtube\\source\\repos\\FinShark\\frontend\\FinShark\\package.json",
-              "RelativeToolTip": "frontend\\FinShark\\package.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAAUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-08-27T18:17:25.899Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "tsconfig.json",
-              "DocumentMoniker": "C:\\Users\\Gtube\\source\\repos\\FinShark\\frontend\\FinShark\\tsconfig.json",
-              "RelativeDocumentMoniker": "frontend\\FinShark\\tsconfig.json",
-              "ToolTip": "C:\\Users\\Gtube\\source\\repos\\FinShark\\frontend\\FinShark\\tsconfig.json",
-              "RelativeToolTip": "frontend\\FinShark\\tsconfig.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-08-27T18:14:36.026Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "tsconfig.json",
-              "DocumentMoniker": "C:\\Users\\Gtube\\Downloads\\FinSharkTeddy-master\\FinSharkTeddy-master\\frontend\\tsconfig.json",
-              "RelativeDocumentMoniker": "..\\..\\..\\Downloads\\FinSharkTeddy-master\\FinSharkTeddy-master\\frontend\\tsconfig.json",
-              "ToolTip": "C:\\Users\\Gtube\\Downloads\\FinSharkTeddy-master\\FinSharkTeddy-master\\frontend\\tsconfig.json",
-              "RelativeToolTip": "..\\..\\..\\Downloads\\FinSharkTeddy-master\\FinSharkTeddy-master\\frontend\\tsconfig.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-08-27T18:14:19.273Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "eslint.config.js",
-              "DocumentMoniker": "C:\\Users\\Gtube\\source\\repos\\FinShark\\frontend\\FinShark\\eslint.config.js",
-              "RelativeDocumentMoniker": "frontend\\FinShark\\eslint.config.js",
-              "ToolTip": "C:\\Users\\Gtube\\source\\repos\\FinShark\\frontend\\FinShark\\eslint.config.js",
-              "RelativeToolTip": "frontend\\FinShark\\eslint.config.js",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2024-08-27T18:14:07.255Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Card.tsx",
-              "DocumentMoniker": "C:\\Users\\Gtube\\source\\repos\\FinShark\\frontend\\FinShark\\src\\Components\\Card\\Card.tsx",
-              "RelativeDocumentMoniker": "frontend\\FinShark\\src\\Components\\Card\\Card.tsx",
-              "ToolTip": "C:\\Users\\Gtube\\source\\repos\\FinShark\\frontend\\FinShark\\src\\Components\\Card\\Card.tsx",
-              "RelativeToolTip": "frontend\\FinShark\\src\\Components\\Card\\Card.tsx",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAxAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
-              "WhenOpened": "2024-08-27T18:09:17.41Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "CompanyProfile.tsx",
-              "DocumentMoniker": "C:\\Users\\Gtube\\source\\repos\\FinShark\\frontend\\FinShark\\src\\Components\\CompanyProfile\\CompanyProfile.tsx",
-              "RelativeDocumentMoniker": "frontend\\FinShark\\src\\Components\\CompanyProfile\\CompanyProfile.tsx",
-              "ToolTip": "C:\\Users\\Gtube\\source\\repos\\FinShark\\frontend\\FinShark\\src\\Components\\CompanyProfile\\CompanyProfile.tsx",
-              "RelativeToolTip": "frontend\\FinShark\\src\\Components\\CompanyProfile\\CompanyProfile.tsx",
-              "ViewState": "AgIAADYAAAAAAAAAAAAAAGAAAAAKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
-              "WhenOpened": "2024-08-27T18:09:15.564Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "CompFinder.tsx",
-              "DocumentMoniker": "C:\\Users\\Gtube\\source\\repos\\FinShark\\frontend\\FinShark\\src\\Components\\CompFinder\\CompFinder.tsx",
-              "RelativeDocumentMoniker": "frontend\\FinShark\\src\\Components\\CompFinder\\CompFinder.tsx",
-              "ToolTip": "C:\\Users\\Gtube\\source\\repos\\FinShark\\frontend\\FinShark\\src\\Components\\CompFinder\\CompFinder.tsx",
-              "RelativeToolTip": "frontend\\FinShark\\src\\Components\\CompFinder\\CompFinder.tsx",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
-              "WhenOpened": "2024-08-27T18:09:05.758Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Routes.tsx",
-              "DocumentMoniker": "C:\\Users\\Gtube\\source\\repos\\FinShark\\frontend\\FinShark\\src\\Routes\\Routes.tsx",
-              "RelativeDocumentMoniker": "frontend\\FinShark\\src\\Routes\\Routes.tsx",
-              "ToolTip": "C:\\Users\\Gtube\\source\\repos\\FinShark\\frontend\\FinShark\\src\\Routes\\Routes.tsx",
-              "RelativeToolTip": "frontend\\FinShark\\src\\Routes\\Routes.tsx",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAA2AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
-              "WhenOpened": "2024-08-27T18:07:36.459Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "LoginPage.tsx",
-              "DocumentMoniker": "C:\\Users\\Gtube\\source\\repos\\FinShark\\frontend\\FinShark\\src\\Pages\\LoginPage\\LoginPage.tsx",
-              "RelativeDocumentMoniker": "frontend\\FinShark\\src\\Pages\\LoginPage\\LoginPage.tsx",
-              "ToolTip": "C:\\Users\\Gtube\\source\\repos\\FinShark\\frontend\\FinShark\\src\\Pages\\LoginPage\\LoginPage.tsx",
-              "RelativeToolTip": "frontend\\FinShark\\src\\Pages\\LoginPage\\LoginPage.tsx",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAG8AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
-              "WhenOpened": "2024-08-27T16:56:37.128Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
@@ -211,51 +38,40 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "App.tsx",
-              "DocumentMoniker": "C:\\Users\\Gtube\\source\\repos\\FinShark\\frontend\\FinShark\\src\\App.tsx",
-              "RelativeDocumentMoniker": "frontend\\FinShark\\src\\App.tsx",
-              "ToolTip": "C:\\Users\\Gtube\\source\\repos\\FinShark\\frontend\\FinShark\\src\\App.tsx",
-              "RelativeToolTip": "frontend\\FinShark\\src\\App.tsx",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
-              "WhenOpened": "2024-08-27T16:02:43.461Z"
+              "DocumentIndex": 0,
+              "Title": "FinShark.Server",
+              "DocumentMoniker": "C:\\Users\\Gtube\\source\\repos\\FinShark\\api\\FinShark.Server.csproj",
+              "RelativeDocumentMoniker": "api\\FinShark.Server.csproj",
+              "ToolTip": "C:\\Users\\Gtube\\source\\repos\\FinShark\\api\\FinShark.Server.csproj",
+              "RelativeToolTip": "api\\FinShark.Server.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-08-27T18:45:06.352Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "User.ts",
-              "DocumentMoniker": "C:\\Users\\Gtube\\source\\repos\\FinShark\\frontend\\FinShark\\src\\Models\\User.ts",
-              "RelativeDocumentMoniker": "frontend\\FinShark\\src\\Models\\User.ts",
-              "ToolTip": "C:\\Users\\Gtube\\source\\repos\\FinShark\\frontend\\FinShark\\src\\Models\\User.ts",
-              "RelativeToolTip": "frontend\\FinShark\\src\\Models\\User.ts",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "vite.config.ts",
+              "DocumentMoniker": "C:\\Users\\Gtube\\source\\repos\\FinShark\\frontend\\vite.config.ts",
+              "RelativeDocumentMoniker": "frontend\\vite.config.ts",
+              "ToolTip": "C:\\Users\\Gtube\\source\\repos\\FinShark\\frontend\\vite.config.ts",
+              "RelativeToolTip": "frontend\\vite.config.ts",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
-              "WhenOpened": "2024-08-27T14:55:32.801Z"
+              "WhenOpened": "2024-08-27T18:43:28.158Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "AuthService.tsx",
-              "DocumentMoniker": "C:\\Users\\Gtube\\source\\repos\\FinShark\\frontend\\FinShark\\src\\services\\AuthService.tsx",
-              "RelativeDocumentMoniker": "frontend\\FinShark\\src\\services\\AuthService.tsx",
-              "ToolTip": "C:\\Users\\Gtube\\source\\repos\\FinShark\\frontend\\FinShark\\src\\services\\AuthService.tsx",
-              "RelativeToolTip": "frontend\\FinShark\\src\\services\\AuthService.tsx",
+              "DocumentIndex": 2,
+              "Title": "launch.json",
+              "DocumentMoniker": "C:\\Users\\Gtube\\source\\repos\\FinShark\\frontend\\.vscode\\launch.json",
+              "RelativeDocumentMoniker": "frontend\\.vscode\\launch.json",
+              "ToolTip": "C:\\Users\\Gtube\\source\\repos\\FinShark\\frontend\\.vscode\\launch.json",
+              "RelativeToolTip": "frontend\\.vscode\\launch.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
-              "WhenOpened": "2024-08-27T14:55:26.1Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "useAuth.tsx",
-              "DocumentMoniker": "C:\\Users\\Gtube\\source\\repos\\FinShark\\frontend\\FinShark\\src\\Context\\useAuth.tsx",
-              "RelativeDocumentMoniker": "frontend\\FinShark\\src\\Context\\useAuth.tsx",
-              "ToolTip": "C:\\Users\\Gtube\\source\\repos\\FinShark\\frontend\\FinShark\\src\\Context\\useAuth.tsx",
-              "RelativeToolTip": "frontend\\FinShark\\src\\Context\\useAuth.tsx",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAACUAAAAZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
-              "WhenOpened": "2024-08-27T14:51:32.67Z",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-08-27T18:43:26.023Z",
               "EditorCaption": ""
             }
           ]

@@ -1,7 +1,20 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\Gtube\\source\\repos\\FinShark\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{86689CC4-6044-46CD-9E42-A5C9A4F97402}|api\\FinShark.Server.csproj|c:\\users\\gtube\\source\\repos\\finshark\\api\\finshark.server.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{86689CC4-6044-46CD-9E42-A5C9A4F97402}|api\\FinShark.Server.csproj|solutionrelative:api\\finshark.server.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{975D2B9B-487B-4738-8802-4F1949B6642F}|frontend\\finshark.client.esproj|c:\\users\\gtube\\source\\repos\\finshark\\frontend\\vite.config.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{975D2B9B-487B-4738-8802-4F1949B6642F}|frontend\\finshark.client.esproj|solutionrelative:frontend\\vite.config.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{975D2B9B-487B-4738-8802-4F1949B6642F}|frontend\\finshark.client.esproj|c:\\users\\gtube\\source\\repos\\finshark\\frontend\\.vscode\\launch.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{975D2B9B-487B-4738-8802-4F1949B6642F}|frontend\\finshark.client.esproj|solutionrelative:frontend\\.vscode\\launch.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -22,6 +35,44 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FinShark.Server",
+              "DocumentMoniker": "C:\\Users\\Gtube\\source\\repos\\FinShark\\api\\FinShark.Server.csproj",
+              "RelativeDocumentMoniker": "api\\FinShark.Server.csproj",
+              "ToolTip": "C:\\Users\\Gtube\\source\\repos\\FinShark\\api\\FinShark.Server.csproj",
+              "RelativeToolTip": "api\\FinShark.Server.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-08-27T18:45:06.352Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "vite.config.ts",
+              "DocumentMoniker": "C:\\Users\\Gtube\\source\\repos\\FinShark\\frontend\\vite.config.ts",
+              "RelativeDocumentMoniker": "frontend\\vite.config.ts",
+              "ToolTip": "C:\\Users\\Gtube\\source\\repos\\FinShark\\frontend\\vite.config.ts",
+              "RelativeToolTip": "frontend\\vite.config.ts",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2024-08-27T18:43:28.158Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "launch.json",
+              "DocumentMoniker": "C:\\Users\\Gtube\\source\\repos\\FinShark\\frontend\\.vscode\\launch.json",
+              "RelativeDocumentMoniker": "frontend\\.vscode\\launch.json",
+              "ToolTip": "C:\\Users\\Gtube\\source\\repos\\FinShark\\frontend\\.vscode\\launch.json",
+              "RelativeToolTip": "frontend\\.vscode\\launch.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-08-27T18:43:26.023Z",
+              "EditorCaption": ""
             }
           ]
         }

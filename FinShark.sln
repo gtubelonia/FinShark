@@ -3,13 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.11.35219.272
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "api", "api", "{320773FC-F30E-46E8-B4AD-6CCFE4A4BD99}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Server", "Server", "{320773FC-F30E-46E8-B4AD-6CCFE4A4BD99}"
 	ProjectSection(SolutionItems) = preProject
 		api\.gitattributes = api\.gitattributes
 		api\.gitignore = api\.gitignore
 	EndProjectSection
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FinShark", "api\FinShark.csproj", "{86689CC4-6044-46CD-9E42-A5C9A4F97402}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FinShark.Server", "api\FinShark.Server.csproj", "{86689CC4-6044-46CD-9E42-A5C9A4F97402}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "frontend", "frontend", "{93B1F442-5577-4DB2-8B4A-79FA7BC34D65}"
+EndProject
+Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "FinShark.Client", "frontend\FinShark.Client.esproj", "{975D2B9B-487B-4738-8802-4F1949B6642F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,12 +25,19 @@ Global
 		{86689CC4-6044-46CD-9E42-A5C9A4F97402}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{86689CC4-6044-46CD-9E42-A5C9A4F97402}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{86689CC4-6044-46CD-9E42-A5C9A4F97402}.Release|Any CPU.Build.0 = Release|Any CPU
+		{975D2B9B-487B-4738-8802-4F1949B6642F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{975D2B9B-487B-4738-8802-4F1949B6642F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{975D2B9B-487B-4738-8802-4F1949B6642F}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{975D2B9B-487B-4738-8802-4F1949B6642F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{975D2B9B-487B-4738-8802-4F1949B6642F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{975D2B9B-487B-4738-8802-4F1949B6642F}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{86689CC4-6044-46CD-9E42-A5C9A4F97402} = {320773FC-F30E-46E8-B4AD-6CCFE4A4BD99}
+		{975D2B9B-487B-4738-8802-4F1949B6642F} = {93B1F442-5577-4DB2-8B4A-79FA7BC34D65}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {B84A2499-9A97-4B95-9BBA-5B4CD5022B78}
