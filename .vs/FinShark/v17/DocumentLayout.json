@@ -1,7 +1,28 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\Gtube\\source\\repos\\FinShark\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0BBCA86C-66B7-446B-BE10-9886EC1F6E32}|frontend\\FinShark\\finshark.esproj|c:\\users\\gtube\\source\\repos\\finshark\\frontend\\finshark\\services\\authservice.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{0BBCA86C-66B7-446B-BE10-9886EC1F6E32}|frontend\\FinShark\\finshark.esproj|solutionrelative:frontend\\finshark\\services\\authservice.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Gtube\\source\\repos\\FinShark\\frontend\\package-lock.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:frontend\\package-lock.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Gtube\\source\\repos\\FinShark\\frontend\\package.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:frontend\\package.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0BBCA86C-66B7-446B-BE10-9886EC1F6E32}|frontend\\FinShark\\finshark.esproj|c:\\users\\gtube\\source\\repos\\finshark\\frontend\\finshark\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{0BBCA86C-66B7-446B-BE10-9886EC1F6E32}|frontend\\FinShark\\finshark.esproj|solutionrelative:frontend\\finshark\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0BBCA86C-66B7-446B-BE10-9886EC1F6E32}|frontend\\FinShark\\finshark.esproj|c:\\users\\gtube\\source\\repos\\finshark\\frontend\\finshark\\package.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{0BBCA86C-66B7-446B-BE10-9886EC1F6E32}|frontend\\FinShark\\finshark.esproj|solutionrelative:frontend\\finshark\\package.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -22,6 +43,71 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AuthService.tsx",
+              "DocumentMoniker": "C:\\Users\\Gtube\\source\\repos\\FinShark\\frontend\\FinShark\\services\\AuthService.tsx",
+              "RelativeDocumentMoniker": "frontend\\FinShark\\services\\AuthService.tsx",
+              "ToolTip": "C:\\Users\\Gtube\\source\\repos\\FinShark\\frontend\\FinShark\\services\\AuthService.tsx",
+              "RelativeToolTip": "frontend\\FinShark\\services\\AuthService.tsx",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2024-08-27T06:17:38.002Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "package-lock.json",
+              "DocumentMoniker": "C:\\Users\\Gtube\\source\\repos\\FinShark\\frontend\\package-lock.json",
+              "RelativeDocumentMoniker": "frontend\\package-lock.json",
+              "ToolTip": "C:\\Users\\Gtube\\source\\repos\\FinShark\\frontend\\package-lock.json",
+              "RelativeToolTip": "frontend\\package-lock.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-08-27T06:15:31.467Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "package.json",
+              "DocumentMoniker": "C:\\Users\\Gtube\\source\\repos\\FinShark\\frontend\\package.json",
+              "RelativeDocumentMoniker": "frontend\\package.json",
+              "ToolTip": "C:\\Users\\Gtube\\source\\repos\\FinShark\\frontend\\package.json",
+              "RelativeToolTip": "frontend\\package.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-08-27T06:15:27.361Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": ".gitignore",
+              "DocumentMoniker": "C:\\Users\\Gtube\\source\\repos\\FinShark\\frontend\\FinShark\\.gitignore",
+              "RelativeDocumentMoniker": "frontend\\FinShark\\.gitignore",
+              "ToolTip": "C:\\Users\\Gtube\\source\\repos\\FinShark\\frontend\\FinShark\\.gitignore",
+              "RelativeToolTip": "frontend\\FinShark\\.gitignore",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-08-27T06:14:59.441Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "package.json",
+              "DocumentMoniker": "C:\\Users\\Gtube\\source\\repos\\FinShark\\frontend\\FinShark\\package.json",
+              "RelativeDocumentMoniker": "frontend\\FinShark\\package.json",
+              "ToolTip": "C:\\Users\\Gtube\\source\\repos\\FinShark\\frontend\\FinShark\\package.json",
+              "RelativeToolTip": "frontend\\FinShark\\package.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-08-27T06:12:58.543Z",
+              "EditorCaption": ""
             }
           ]
         }
