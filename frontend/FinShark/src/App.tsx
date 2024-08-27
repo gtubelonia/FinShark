@@ -6,15 +6,18 @@ import Navbar from "./Components/Navbar/Navbar"
 import "dist/ReactToastify.css"
 import './App.css'
 import { ToastContainer } from "react-toastify";
+import { UserProvider } from './Context/UserProvider';
 
 function App() {
     const [count, setCount] = useState(0)
 
     return (
         <>
-            <Navbar />
-            <Outlet />
-            <ToastContainer />
+            <UserProvider>
+                <Navbar />
+                <Outlet />
+                <ToastContainer />
+            </UserProvider>
             <div>
                 <a href="https://vitejs.dev" target="_blank">
                     <img src={viteLogo} className="logo" alt="Vite logo" />
