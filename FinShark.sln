@@ -11,10 +11,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "api", "api", "{320773FC-F30
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FinShark", "api\FinShark.csproj", "{86689CC4-6044-46CD-9E42-A5C9A4F97402}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "frontend", "frontend", "{0E4A330F-0649-4219-A0D9-1765226ACBDD}"
-EndProject
-Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "finshark", "frontend\FinShark\finshark.esproj", "{0BBCA86C-66B7-446B-BE10-9886EC1F6E32}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -25,19 +21,12 @@ Global
 		{86689CC4-6044-46CD-9E42-A5C9A4F97402}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{86689CC4-6044-46CD-9E42-A5C9A4F97402}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{86689CC4-6044-46CD-9E42-A5C9A4F97402}.Release|Any CPU.Build.0 = Release|Any CPU
-		{0BBCA86C-66B7-446B-BE10-9886EC1F6E32}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{0BBCA86C-66B7-446B-BE10-9886EC1F6E32}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{0BBCA86C-66B7-446B-BE10-9886EC1F6E32}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
-		{0BBCA86C-66B7-446B-BE10-9886EC1F6E32}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{0BBCA86C-66B7-446B-BE10-9886EC1F6E32}.Release|Any CPU.Build.0 = Release|Any CPU
-		{0BBCA86C-66B7-446B-BE10-9886EC1F6E32}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{86689CC4-6044-46CD-9E42-A5C9A4F97402} = {320773FC-F30E-46E8-B4AD-6CCFE4A4BD99}
-		{0BBCA86C-66B7-446B-BE10-9886EC1F6E32} = {0E4A330F-0649-4219-A0D9-1765226ACBDD}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {B84A2499-9A97-4B95-9BBA-5B4CD5022B78}

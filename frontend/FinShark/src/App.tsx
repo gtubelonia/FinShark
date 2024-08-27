@@ -6,7 +6,7 @@ import Navbar from "./Components/Navbar/Navbar"
 import "dist/ReactToastify.css"
 import './App.css'
 import { ToastContainer } from "react-toastify";
-import { UserProvider } from './Context/UserProvider';
+import { UserProvider } from './Context/useAuth';
 
 function App() {
     const [count, setCount] = useState(0)

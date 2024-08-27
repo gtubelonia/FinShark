@@ -1,24 +1,7 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\Gtube\\source\\repos\\FinShark\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{0BBCA86C-66B7-446B-BE10-9886EC1F6E32}|frontend\\FinShark\\finshark.esproj|c:\\users\\gtube\\source\\repos\\finshark\\frontend\\finshark\\src\\context\\useauth.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
-      "RelativeMoniker": "D:0:0:{0BBCA86C-66B7-446B-BE10-9886EC1F6E32}|frontend\\FinShark\\finshark.esproj|solutionrelative:frontend\\finshark\\src\\context\\useauth.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0BBCA86C-66B7-446B-BE10-9886EC1F6E32}|frontend\\FinShark\\finshark.esproj|c:\\users\\gtube\\source\\repos\\finshark\\frontend\\finshark\\src\\models\\user.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
-      "RelativeMoniker": "D:0:0:{0BBCA86C-66B7-446B-BE10-9886EC1F6E32}|frontend\\FinShark\\finshark.esproj|solutionrelative:frontend\\finshark\\src\\models\\user.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0BBCA86C-66B7-446B-BE10-9886EC1F6E32}|frontend\\FinShark\\finshark.esproj|c:\\users\\gtube\\source\\repos\\finshark\\frontend\\finshark\\src\\services\\authservice.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
-      "RelativeMoniker": "D:0:0:{0BBCA86C-66B7-446B-BE10-9886EC1F6E32}|frontend\\FinShark\\finshark.esproj|solutionrelative:frontend\\finshark\\src\\services\\authservice.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0BBCA86C-66B7-446B-BE10-9886EC1F6E32}|frontend\\FinShark\\finshark.esproj|c:\\users\\gtube\\source\\repos\\finshark\\frontend\\finshark\\src\\app.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
-      "RelativeMoniker": "D:0:0:{0BBCA86C-66B7-446B-BE10-9886EC1F6E32}|frontend\\FinShark\\finshark.esproj|solutionrelative:frontend\\finshark\\src\\app.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -26,47 +9,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": -1,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "App.tsx",
-              "DocumentMoniker": "C:\\Users\\Gtube\\source\\repos\\FinShark\\frontend\\FinShark\\src\\App.tsx",
-              "RelativeDocumentMoniker": "frontend\\FinShark\\src\\App.tsx",
-              "ToolTip": "C:\\Users\\Gtube\\source\\repos\\FinShark\\frontend\\FinShark\\src\\App.tsx",
-              "RelativeToolTip": "frontend\\FinShark\\src\\App.tsx",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
-              "WhenOpened": "2024-08-27T16:02:43.461Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "User.ts",
-              "DocumentMoniker": "C:\\Users\\Gtube\\source\\repos\\FinShark\\frontend\\FinShark\\src\\Models\\User.ts",
-              "RelativeDocumentMoniker": "frontend\\FinShark\\src\\Models\\User.ts",
-              "ToolTip": "C:\\Users\\Gtube\\source\\repos\\FinShark\\frontend\\FinShark\\src\\Models\\User.ts",
-              "RelativeToolTip": "frontend\\FinShark\\src\\Models\\User.ts",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
-              "WhenOpened": "2024-08-27T14:55:32.801Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "AuthService.tsx",
-              "DocumentMoniker": "C:\\Users\\Gtube\\source\\repos\\FinShark\\frontend\\FinShark\\src\\services\\AuthService.tsx",
-              "RelativeDocumentMoniker": "frontend\\FinShark\\src\\services\\AuthService.tsx",
-              "ToolTip": "C:\\Users\\Gtube\\source\\repos\\FinShark\\frontend\\FinShark\\src\\services\\AuthService.tsx",
-              "RelativeToolTip": "frontend\\FinShark\\src\\services\\AuthService.tsx",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
-              "WhenOpened": "2024-08-27T14:55:26.1Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
@@ -78,19 +22,6 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "useAuth.tsx",
-              "DocumentMoniker": "C:\\Users\\Gtube\\source\\repos\\FinShark\\frontend\\FinShark\\src\\Context\\useAuth.tsx",
-              "RelativeDocumentMoniker": "frontend\\FinShark\\src\\Context\\useAuth.tsx",
-              "ToolTip": "C:\\Users\\Gtube\\source\\repos\\FinShark\\frontend\\FinShark\\src\\Context\\useAuth.tsx",
-              "RelativeToolTip": "frontend\\FinShark\\src\\Context\\useAuth.tsx",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAACUAAAAZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
-              "WhenOpened": "2024-08-27T14:51:32.67Z",
-              "EditorCaption": ""
             }
           ]
         }
