@@ -1,7 +1,20 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\Gtube\\source\\repos\\FinShark\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{65A100DB-B10A-41B8-8234-21305479D022}|Finshark.Client\\finshark.client.esproj|c:\\users\\gtube\\source\\repos\\finshark\\finshark.client\\src\\app.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{65A100DB-B10A-41B8-8234-21305479D022}|Finshark.Client\\finshark.client.esproj|solutionrelative:finshark.client\\src\\app.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65A100DB-B10A-41B8-8234-21305479D022}|Finshark.Client\\finshark.client.esproj|c:\\users\\gtube\\source\\repos\\finshark\\finshark.client\\eslint.config.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{65A100DB-B10A-41B8-8234-21305479D022}|Finshark.Client\\finshark.client.esproj|solutionrelative:finshark.client\\eslint.config.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65A100DB-B10A-41B8-8234-21305479D022}|Finshark.Client\\finshark.client.esproj|c:\\users\\gtube\\source\\repos\\finshark\\finshark.client\\package-lock.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{65A100DB-B10A-41B8-8234-21305479D022}|Finshark.Client\\finshark.client.esproj|solutionrelative:finshark.client\\package-lock.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -22,6 +35,45 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "App.tsx",
+              "DocumentMoniker": "C:\\Users\\Gtube\\source\\repos\\FinShark\\Finshark.Client\\src\\App.tsx",
+              "RelativeDocumentMoniker": "Finshark.Client\\src\\App.tsx",
+              "ToolTip": "C:\\Users\\Gtube\\source\\repos\\FinShark\\Finshark.Client\\src\\App.tsx",
+              "RelativeToolTip": "Finshark.Client\\src\\App.tsx",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2024-08-28T20:18:07.408Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "package-lock.json",
+              "DocumentMoniker": "C:\\Users\\Gtube\\source\\repos\\FinShark\\Finshark.Client\\package-lock.json",
+              "RelativeDocumentMoniker": "Finshark.Client\\package-lock.json",
+              "ToolTip": "C:\\Users\\Gtube\\source\\repos\\FinShark\\Finshark.Client\\package-lock.json",
+              "RelativeToolTip": "Finshark.Client\\package-lock.json",
+              "ViewState": "AgIAACsAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-08-28T14:52:54.625Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "eslint.config.js",
+              "DocumentMoniker": "C:\\Users\\Gtube\\source\\repos\\FinShark\\Finshark.Client\\eslint.config.js",
+              "RelativeDocumentMoniker": "Finshark.Client\\eslint.config.js",
+              "ToolTip": "C:\\Users\\Gtube\\source\\repos\\FinShark\\Finshark.Client\\eslint.config.js",
+              "RelativeToolTip": "Finshark.Client\\eslint.config.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-08-28T14:35:12.734Z",
+              "EditorCaption": ""
             }
           ]
         }
