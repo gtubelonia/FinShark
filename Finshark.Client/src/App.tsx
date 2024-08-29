@@ -31,13 +31,21 @@ function App() {
   const onPortfolioCreate = (e: any) => {
     e.preventDefault();
     const exists = portfolioValues.find((value) => value === e.target[0].value);
-    if (exists){
+    if (exists) {
       return;
     }
     const updatedPortfolio = [...portfolioValues, e.target[0].value];
     setPortfolioValues(updatedPortfolio);
     console.log(e);
   };
+
+  const onPortfolioDelete = (e: any) => {
+    e.preventDefault();
+    const removed = portfolioValues.filter((value) => {
+      return value !== e.target[0].value;
+    });
+    setPortfolioValues(removed);
+  }
 
   return (
     <>
@@ -48,7 +56,7 @@ function App() {
           search={searchBarValue}
           handleSearchChange={handleSearchChange}
         />
-        <ListPortfolio portfolioValues={portfolioValues} />
+        <ListPortfolio portfolioValues={portfolioValues} onPortfolioDelete={onPortfolioDelete} />
         <CardList
           searchResults={searchResult}
           onPortfolioCreate={onPortfolioCreate}
