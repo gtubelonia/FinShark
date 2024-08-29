@@ -3,27 +3,13 @@ import { testIncomeStatementData } from './testData'
 
 const data = testIncomeStatementData;
 type Props = {
+    config: any;
+    data: any;
 }
 
-type Company = (typeof data)[0];
 
-const config = [
-    {
-        label: "Year",
-        render: (company: Company) => company.acceptedDate
-    },
-    {
-        label: "Cost of Revenue",
-        render: (company: Company) => company.costOfRevenue
-    },
-    {
-        label: "Net Income",
-        render: (company: Company) => company.netIncome
-    }
-];
-
-const Table = (props: Props) => {
-    const renderedRows = data.map((company) => {
+const Table = ({config, data}: Props) => {
+    const renderedRows = data.map((company:any) => {
         return (
             <tr key={company.cik}>
                 {config.map((val: any) => {
@@ -37,8 +23,8 @@ const Table = (props: Props) => {
         return (
             <th className="p-4 text-left text-cs font-medium text-fray-500 uppercase tracking-wider"
                 key={config.label}>
-                    {config.label}
-                </th>
+                {config.label}
+            </th>
         )
     });
     return <div className="bg-white shadow rounded-lg p-4 sm:p-6 xl:p-8">

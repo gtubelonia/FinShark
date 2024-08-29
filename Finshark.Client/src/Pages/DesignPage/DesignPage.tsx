@@ -18,8 +18,8 @@ const DesignPage = (props: Props) => {
     <>
       <h1>FinShark Design Page</h1>
       <h2>This is FinShark's design page. This is where we house various design aspects of the app</h2>
-      <RatioList data={testIncomeStatementData} config={tableConfig}/>
-      <Table />
+      <RatioList data={testIncomeStatementData} config={tableConfig} />
+      <Table data={testIncomeStatementData} config={tableConfig} />
     </>
 
   )

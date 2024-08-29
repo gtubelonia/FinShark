@@ -10,6 +10,7 @@ export const searchCompanies = async (query: string) => {
         const data = await axios.get<SearchResponse>(
             `https://financialmodelingprep.com/api/v3/search-ticker?query=${query}&limit=10&exchange=NASDAQ&apikey=${import.meta.env.VITE_APP_API_KEY}`
         );
+
         return data;
     } catch (error: any) {
         if (error.response) {
@@ -31,6 +32,7 @@ export const getCompanyProfile = async (query: string) => {
         return data;
     } catch (error: any) {
         console.log("error message from API: ", error.message);
+        return "An unexpected error has occured."
     }
 }
 
@@ -39,8 +41,23 @@ export const getKeyMetrics = async (query: string) => {
         const data = await axios.get<CompanyKeyMetrics>(
             `https://financialmodelingprep.com/api/v3/key-metrics-ttm/${query}?apikey=${import.meta.env.VITE_APP_API_KEY}`
         )
+
         return data;
     } catch (error: any) {
         console.log("error message from API: ", error.message)
+        return "An unexpected error has occured."
+    }
+}
+
+export const getIncomeStatement = async (query: string) => {
+    try {
+        const data = await axios.get<CompanyIncomeStatement[]>(
+            `https://financialmodelingprep.com/api/v3/income-statement/${query}?limit=40&apikey=${import.meta.env.VITE_APP_API_KEY}`
+        )
+
+        return data;
+    } catch (error: any) {
+        console.log("error message from API: ", error.message)
+        return "An unexpected error has occured."
     }
 }
