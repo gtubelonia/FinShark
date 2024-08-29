@@ -1,8 +1,8 @@
 
 import { SyntheticEvent } from 'react';
-import reactLogo from '../../assets/react.svg'
 import { CompanySearch } from '../../company.d';
 import AddPortfolio from '../Portfolio/AddPortfolio/AddPortfolio';
+import { Link } from 'react-router-dom';
 
 type Props = {
     id: string;
@@ -11,19 +11,27 @@ type Props = {
 }
 
 const Card = ({ id, searchResult, onPortfolioCreate }: Props): JSX.Element => {
-    return <div className="card" key={id} id={id}>
-        <img
-            src={reactLogo}
-            alt="This is a placeholder image"
-        />
-        <div className="details">
-            <h2>{searchResult.name} : ({searchResult.symbol})</h2>
-            <p>{searchResult.currency}</p>
+    return (
+        <div
+            className="flex flex-col items-center justify-between w-full p-6 bg-slate-100 rounded-lg md:flex-row"
+            key={id}
+            id={id}
+        >
+            <Link to = {`/company/${searchResult.symbol}`}
+                className="font-bold text-center text-black md:text-left"
+            >
+                {searchResult.name} ({searchResult.symbol})
+            </Link>
+            <p className="text-black">{searchResult.currency}</p>
+            <p className="font-bold text-black">
+                {searchResult.exchangeShortName} - {searchResult.stockExchange}
+            </p>
+            <AddPortfolio
+                onPortfolioCreate={onPortfolioCreate}
+                symbol={searchResult.symbol}
+            />
         </div>
-        <p className="info">{searchResult.exchangeShortName} - {searchResult.stockExchange}
-        </p>
-        <AddPortfolio onPortfolioCreate={onPortfolioCreate} symbol={searchResult.symbol} />
-    </div>
-}
+    );
+};
 
 export default Card;

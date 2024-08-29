@@ -18,7 +18,12 @@ const CardList = ({ searchResults, onPortfolioCreate }: Props): JSX.Element => {
             searchResult={result}
             key={uudiv4()} />
         })
-      ) : (<h1> No Results</h1>)}
+      ) :
+        (
+          <p className="mb-3 mt-3 text-xl font-semibold text-center md:text-xl">
+            No Results
+          </p>
+        )}
     </>
   )
 }

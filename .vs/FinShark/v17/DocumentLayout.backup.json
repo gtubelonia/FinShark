@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\Gtube\\source\\repos\\FinShark\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{65A100DB-B10A-41B8-8234-21305479D022}|Finshark.Client\\finshark.client.esproj|c:\\users\\gtube\\source\\repos\\finshark\\finshark.client\\src\\api.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{65A100DB-B10A-41B8-8234-21305479D022}|Finshark.Client\\finshark.client.esproj|solutionrelative:finshark.client\\src\\api.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{65A100DB-B10A-41B8-8234-21305479D022}|Finshark.Client\\finshark.client.esproj|c:\\users\\gtube\\source\\repos\\finshark\\finshark.client\\src\\app.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
       "RelativeMoniker": "D:0:0:{65A100DB-B10A-41B8-8234-21305479D022}|Finshark.Client\\finshark.client.esproj|solutionrelative:finshark.client\\src\\app.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
     },
@@ -39,6 +43,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "api.ts",
+              "DocumentMoniker": "C:\\Users\\Gtube\\source\\repos\\FinShark\\Finshark.Client\\src\\api.ts",
+              "RelativeDocumentMoniker": "Finshark.Client\\src\\api.ts",
+              "ToolTip": "C:\\Users\\Gtube\\source\\repos\\FinShark\\Finshark.Client\\src\\api.ts",
+              "RelativeToolTip": "Finshark.Client\\src\\api.ts",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2024-08-28T20:18:35.434Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "App.tsx",
               "DocumentMoniker": "C:\\Users\\Gtube\\source\\repos\\FinShark\\Finshark.Client\\src\\App.tsx",
               "RelativeDocumentMoniker": "Finshark.Client\\src\\App.tsx",
@@ -51,7 +68,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "package-lock.json",
               "DocumentMoniker": "C:\\Users\\Gtube\\source\\repos\\FinShark\\Finshark.Client\\package-lock.json",
               "RelativeDocumentMoniker": "Finshark.Client\\package-lock.json",
@@ -64,7 +81,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "eslint.config.js",
               "DocumentMoniker": "C:\\Users\\Gtube\\source\\repos\\FinShark\\Finshark.Client\\eslint.config.js",
               "RelativeDocumentMoniker": "Finshark.Client\\eslint.config.js",
