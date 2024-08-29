@@ -76,7 +76,7 @@ const BalanceSheet = (props: Props) => {
         {balanceSheet ? (
             <RatioList config={config} data={balanceSheet} />
         ) : (
-            <div>Company not found</div>
+            <Spinner />
         )
         }
     </>
