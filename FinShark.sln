@@ -3,15 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.11.35219.272
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Server", "Server", "{320773FC-F30E-46E8-B4AD-6CCFE4A4BD99}"
-	ProjectSection(SolutionItems) = preProject
-		api\.gitattributes = api\.gitattributes
-		api\.gitignore = api\.gitignore
-	EndProjectSection
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FinShark.Server", "api\FinShark.Server.csproj", "{86689CC4-6044-46CD-9E42-A5C9A4F97402}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Client", "Client", "{C82ACE28-0E4A-429F-AAB9-6E08B2D8859D}"
 EndProject
 Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "finshark.client", "Finshark.Client\finshark.client.esproj", "{65A100DB-B10A-41B8-8234-21305479D022}"
 EndProject
