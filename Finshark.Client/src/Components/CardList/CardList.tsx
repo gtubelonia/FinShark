@@ -10,20 +10,24 @@ type Props = {
 const CardList = ({ searchResults, onPortfolioCreate }: Props): JSX.Element => {
   return (
     <>
-      {searchResults.length > 0 ? (
-        searchResults.map((result) => {
-          return <Card
-            onPortfolioCreate={onPortfolioCreate}
-            id={result.symbol}
-            searchResult={result}
-            key={uudiv4()} />
-        })
-      ) :
-        (
-          <p className="mb-3 mt-3 text-xl font-semibold text-center md:text-xl">
-            No Results
-          </p>
-        )}
+      <div className ="container mx-auto">
+        {searchResults.length > 0 ? (
+
+          searchResults.map((result) => {
+            return <Card
+              onPortfolioCreate={onPortfolioCreate}
+              id={result.symbol}
+              searchResult={result}
+              key={uudiv4()} />
+          })
+
+        ) :
+          (
+            <p className="mb-3 mt-3 text-xl font-semibold text-center md:text-xl">
+              No Results
+            </p>
+          )}
+      </div>
     </>
   )
 }
