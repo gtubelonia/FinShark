@@ -1,0 +1,10 @@
+{
+    "configurations": [
+        {
+            "name": "C#: FinShark.Server [Default Configuration]",
+            "type": "dotnet",
+            "request": "launch",
+            "projectPath": "${workspaceFolder}\\Finshark.Server\\FinShark.Server.csproj"
+        }
+    ]
+}

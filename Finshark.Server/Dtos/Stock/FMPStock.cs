@@ -7,7 +7,7 @@
         public double beta { get; set; }
         public int volAvg { get; set; }
         public long mktCap { get; set; }
-        public int lastDiv { get; set; }
+        public double lastDiv { get; set; }
         public string range { get; set; }
         public double changes { get; set; }
         public string companyName { get; set; }

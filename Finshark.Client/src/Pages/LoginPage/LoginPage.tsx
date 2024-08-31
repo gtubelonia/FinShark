@@ -1,7 +1,7 @@
-import { yupResolver } from '@hookform/resolvers/yup';
 import React from 'react'
-import { useForm } from 'react-hook-form';
+import { yupResolver } from '@hookform/resolvers/yup';
 import * as Yup from "yup";
+import { useForm } from 'react-hook-form';
 import { useAuth } from '../../Context/UseAuth';
 type Props = {}
 
@@ -28,7 +28,7 @@ const LoginPage = (props: Props) => {
         console.log("attempting login: " + form.userName + " " + form.password)
         loginUser(form.userName, form.password);
     };
-    
+
     return (
         <section className="bg-gray-50 dark:bg-gray-900">
             <div className="flex flex-col items-center justify-center px-6 py-8 mx-auto md:h-screen lg:py-0">

@@ -82,7 +82,7 @@ namespace FinShark.Controllers
                 return StatusCode(500, "Could Not Create");
             }
 
-            return Ok("Created");
+            return Created();
         }
 
         [HttpDelete]

@@ -1,7 +1,48 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\Gtube\\source\\repos\\FinShark\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7D905C44-676A-4AF5-AFD8-9875E283D4D4}|Finshark.Server\\FinShark.Server.csproj|c:\\users\\gtube\\source\\repos\\finshark\\finshark.server\\service\\fmpservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7D905C44-676A-4AF5-AFD8-9875E283D4D4}|Finshark.Server\\FinShark.Server.csproj|solutionrelative:finshark.server\\service\\fmpservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D905C44-676A-4AF5-AFD8-9875E283D4D4}|Finshark.Server\\FinShark.Server.csproj|c:\\users\\gtube\\source\\repos\\finshark\\finshark.server\\controllers\\portfoliocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7D905C44-676A-4AF5-AFD8-9875E283D4D4}|Finshark.Server\\FinShark.Server.csproj|solutionrelative:finshark.server\\controllers\\portfoliocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D905C44-676A-4AF5-AFD8-9875E283D4D4}|Finshark.Server\\FinShark.Server.csproj|c:\\users\\gtube\\source\\repos\\finshark\\finshark.server\\dtos\\stock\\fmpstock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7D905C44-676A-4AF5-AFD8-9875E283D4D4}|Finshark.Server\\FinShark.Server.csproj|solutionrelative:finshark.server\\dtos\\stock\\fmpstock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D905C44-676A-4AF5-AFD8-9875E283D4D4}|Finshark.Server\\FinShark.Server.csproj|c:\\users\\gtube\\source\\repos\\finshark\\finshark.server\\helpers\\stockqueryobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7D905C44-676A-4AF5-AFD8-9875E283D4D4}|Finshark.Server\\FinShark.Server.csproj|solutionrelative:finshark.server\\helpers\\stockqueryobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D905C44-676A-4AF5-AFD8-9875E283D4D4}|Finshark.Server\\FinShark.Server.csproj|c:\\users\\gtube\\source\\repos\\finshark\\finshark.server\\models\\stockportfolio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7D905C44-676A-4AF5-AFD8-9875E283D4D4}|Finshark.Server\\FinShark.Server.csproj|solutionrelative:finshark.server\\models\\stockportfolio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D905C44-676A-4AF5-AFD8-9875E283D4D4}|Finshark.Server\\FinShark.Server.csproj|c:\\users\\gtube\\source\\repos\\finshark\\finshark.server\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7D905C44-676A-4AF5-AFD8-9875E283D4D4}|Finshark.Server\\FinShark.Server.csproj|solutionrelative:finshark.server\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D905C44-676A-4AF5-AFD8-9875E283D4D4}|Finshark.Server\\FinShark.Server.csproj|c:\\users\\gtube\\source\\repos\\finshark\\finshark.server\\models\\stock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7D905C44-676A-4AF5-AFD8-9875E283D4D4}|Finshark.Server\\FinShark.Server.csproj|solutionrelative:finshark.server\\models\\stock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D905C44-676A-4AF5-AFD8-9875E283D4D4}|Finshark.Server\\FinShark.Server.csproj|c:\\users\\gtube\\source\\repos\\finshark\\finshark.server\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{7D905C44-676A-4AF5-AFD8-9875E283D4D4}|Finshark.Server\\FinShark.Server.csproj|solutionrelative:finshark.server\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D905C44-676A-4AF5-AFD8-9875E283D4D4}|Finshark.Server\\FinShark.Server.csproj|c:\\users\\gtube\\source\\repos\\finshark\\finshark.server\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7D905C44-676A-4AF5-AFD8-9875E283D4D4}|Finshark.Server\\FinShark.Server.csproj|solutionrelative:finshark.server\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D905C44-676A-4AF5-AFD8-9875E283D4D4}|Finshark.Server\\FinShark.Server.csproj|c:\\users\\gtube\\source\\repos\\finshark\\finshark.server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7D905C44-676A-4AF5-AFD8-9875E283D4D4}|Finshark.Server\\FinShark.Server.csproj|solutionrelative:finshark.server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,7 +50,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -18,6 +59,136 @@
             {
               "$type": "Bookmark",
               "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FMPStock.cs",
+              "DocumentMoniker": "C:\\Users\\Gtube\\source\\repos\\FinShark\\Finshark.Server\\Dtos\\Stock\\FMPStock.cs",
+              "RelativeDocumentMoniker": "Finshark.Server\\Dtos\\Stock\\FMPStock.cs",
+              "ToolTip": "C:\\Users\\Gtube\\source\\repos\\FinShark\\Finshark.Server\\Dtos\\Stock\\FMPStock.cs",
+              "RelativeToolTip": "Finshark.Server\\Dtos\\Stock\\FMPStock.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-30T21:53:08.036Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "StockQueryObject.cs",
+              "DocumentMoniker": "C:\\Users\\Gtube\\source\\repos\\FinShark\\Finshark.Server\\Helpers\\StockQueryObject.cs",
+              "RelativeDocumentMoniker": "Finshark.Server\\Helpers\\StockQueryObject.cs",
+              "ToolTip": "C:\\Users\\Gtube\\source\\repos\\FinShark\\Finshark.Server\\Helpers\\StockQueryObject.cs",
+              "RelativeToolTip": "Finshark.Server\\Helpers\\StockQueryObject.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-30T21:52:59.656Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FMPService.cs",
+              "DocumentMoniker": "C:\\Users\\Gtube\\source\\repos\\FinShark\\Finshark.Server\\Service\\FMPService.cs",
+              "RelativeDocumentMoniker": "Finshark.Server\\Service\\FMPService.cs",
+              "ToolTip": "C:\\Users\\Gtube\\source\\repos\\FinShark\\Finshark.Server\\Service\\FMPService.cs",
+              "RelativeToolTip": "Finshark.Server\\Service\\FMPService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-30T21:52:51.444Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "StockPortfolio.cs",
+              "DocumentMoniker": "C:\\Users\\Gtube\\source\\repos\\FinShark\\Finshark.Server\\Models\\StockPortfolio.cs",
+              "RelativeDocumentMoniker": "Finshark.Server\\Models\\StockPortfolio.cs",
+              "ToolTip": "C:\\Users\\Gtube\\source\\repos\\FinShark\\Finshark.Server\\Models\\StockPortfolio.cs",
+              "RelativeToolTip": "Finshark.Server\\Models\\StockPortfolio.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-30T21:52:10.732Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Stock.cs",
+              "DocumentMoniker": "C:\\Users\\Gtube\\source\\repos\\FinShark\\Finshark.Server\\Models\\Stock.cs",
+              "RelativeDocumentMoniker": "Finshark.Server\\Models\\Stock.cs",
+              "ToolTip": "C:\\Users\\Gtube\\source\\repos\\FinShark\\Finshark.Server\\Models\\Stock.cs",
+              "RelativeToolTip": "Finshark.Server\\Models\\Stock.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-30T21:52:08.107Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\Gtube\\source\\repos\\FinShark\\Finshark.Server\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "Finshark.Server\\Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\Gtube\\source\\repos\\FinShark\\Finshark.Server\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "Finshark.Server\\Controllers\\AccountController.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-30T21:48:03.648Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ApplicationDBContext.cs",
+              "DocumentMoniker": "C:\\Users\\Gtube\\source\\repos\\FinShark\\Finshark.Server\\Data\\ApplicationDBContext.cs",
+              "RelativeDocumentMoniker": "Finshark.Server\\Data\\ApplicationDBContext.cs",
+              "ToolTip": "C:\\Users\\Gtube\\source\\repos\\FinShark\\Finshark.Server\\Data\\ApplicationDBContext.cs",
+              "RelativeToolTip": "Finshark.Server\\Data\\ApplicationDBContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-30T21:47:52.338Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Gtube\\source\\repos\\FinShark\\Finshark.Server\\Program.cs",
+              "RelativeDocumentMoniker": "Finshark.Server\\Program.cs",
+              "ToolTip": "C:\\Users\\Gtube\\source\\repos\\FinShark\\Finshark.Server\\Program.cs",
+              "RelativeToolTip": "Finshark.Server\\Program.cs",
+              "ViewState": "AgIAADAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-30T21:47:17.942Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Gtube\\source\\repos\\FinShark\\Finshark.Server\\appsettings.json",
+              "RelativeDocumentMoniker": "Finshark.Server\\appsettings.json",
+              "ToolTip": "C:\\Users\\Gtube\\source\\repos\\FinShark\\Finshark.Server\\appsettings.json",
+              "RelativeToolTip": "Finshark.Server\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-08-30T21:47:08.051Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PortfolioController.cs",
+              "DocumentMoniker": "C:\\Users\\Gtube\\source\\repos\\FinShark\\Finshark.Server\\Controllers\\PortfolioController.cs",
+              "RelativeDocumentMoniker": "Finshark.Server\\Controllers\\PortfolioController.cs",
+              "ToolTip": "C:\\Users\\Gtube\\source\\repos\\FinShark\\Finshark.Server\\Controllers\\PortfolioController.cs",
+              "RelativeToolTip": "Finshark.Server\\Controllers\\PortfolioController.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAQwDQAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-30T21:42:31.866Z",
+              "EditorCaption": ""
             }
           ]
         }

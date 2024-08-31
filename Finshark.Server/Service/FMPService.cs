@@ -26,7 +26,7 @@ namespace FinShark.Service
                 if (result.IsSuccessStatusCode)
                 {
                     var content = await result.Content.ReadAsStringAsync();
-                    var tasks = JsonConvert.DeserializeObject<FMPStock[]>(content);
+                    var tasks = JsonConvert.DeserializeObject<FMPStock[]>(content, new JsonSerializerSettings { NullValueHandling = NullValueHandling.Ignore });
                     var stock = tasks[0];
 
                     if (stock != null)
