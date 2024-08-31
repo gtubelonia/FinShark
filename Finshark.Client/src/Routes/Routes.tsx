@@ -13,6 +13,7 @@ import RegisterPage from "../Pages/RegisterPage/RegisterPage";
 import ProtectedRoute from "./ProtectedRoute";
 
 export const router = createBrowserRouter([{
+
     path: "/",
     element: <App />,
     children: [
@@ -32,4 +33,7 @@ export const router = createBrowserRouter([{
             ]
         },
     ]
-}])
+},],
+    {
+        basename: `${import.meta.env.DEV ? '/' : '/FinShark/'}`,
+    })

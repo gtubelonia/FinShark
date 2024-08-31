@@ -4,7 +4,7 @@ import tailwindcss from 'tailwindcss'
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base:"/FinShark/Finshark.Client/",
+  base:"/FinShark/",
   plugins: [react()],
   css: {
     postcss: {
