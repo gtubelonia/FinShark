@@ -1,5 +1,6 @@
 import axios from "axios";
 import { CompanyBalanceSheet, CompanyCashFlow, CompanyIncomeStatement, CompanyKeyMetrics, CompanyProfile, CompanySearch } from "./company.d";
+import { handleError } from "./Helpers/ErrorHandler";
 
 interface SearchResponse {
     data: CompanySearch[];
@@ -31,8 +32,7 @@ export const getCompanyProfile = async (query: string) => {
 
         return data;
     } catch (error: any) {
-        console.log("error message from API: ", error.message);
-        return "An unexpected error has occured."
+        handleError(error);
     }
 }
 
@@ -44,8 +44,7 @@ export const getKeyMetrics = async (query: string) => {
 
         return data;
     } catch (error: any) {
-        console.log("error message from API: ", error.message)
-        return "An unexpected error has occured."
+        handleError(error);
     }
 }
 
@@ -57,8 +56,7 @@ export const getIncomeStatement = async (query: string) => {
 
         return data;
     } catch (error: any) {
-        console.log("error message from API: ", error.message)
-        return "An unexpected error has occured."
+        handleError(error);
     }
 }
 
@@ -70,8 +68,7 @@ export const getBalanceSheet = async (query: string) => {
 
         return data;
     } catch (error: any) {
-        console.log("error message from API: ", error.message)
-        return "An unexpected error has occured."
+        handleError(error);
     }
 }
 
@@ -83,7 +80,6 @@ export const getCashFlowStatement = async (query: string) => {
 
         return data;
     } catch (error: any) {
-        console.log("error message from API: ", error.message)
-        return "An unexpected error has occured."
+        handleError(error);
     }
 }

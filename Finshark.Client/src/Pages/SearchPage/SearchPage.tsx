@@ -27,7 +27,7 @@ const SearchPage = (props: Props) => {
         const result = await searchCompanies(searchBarValue);
         if (typeof result === "string") {
             setServerError(result);
-        } else if (Array.isArray(result.data)) {
+        } else if (Array.isArray(result?.data)) {
             setSearchResult(result.data);
         }
         console.log(searchResult);
