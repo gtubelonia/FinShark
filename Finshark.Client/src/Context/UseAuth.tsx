@@ -1,7 +1,7 @@
 import axios from "axios";
 import { createContext, useEffect, useState } from "react";
 import { UserProfile } from "../Models/User"
-import { Navigate, useNavigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import { toast } from "react-toastify";
 import { loginUserAPI, registerUserAPI } from "../Services/AuthService";
 import React from "react";
