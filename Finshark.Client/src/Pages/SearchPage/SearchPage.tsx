@@ -15,7 +15,7 @@ const SearchPage = (props: Props) => {
     const [searchBarValue, setSearchBarValue] = useState<string>("");
     const [searchResult, setSearchResult] = useState<CompanySearch[]>([]);
     const [serverError, setServerError] = useState<string | null>(null);
-    const [portfolioValues, setPortfolioValues] = useState<PortfolioGet[] | null>([]);
+    const [portfolioValues, setPortfolioValues] = useState<PortfolioGet[]>([]);
 
     const handleSearchChange = (e: ChangeEvent<HTMLInputElement>) => {
         setSearchBarValue(e.target.value);
@@ -33,18 +33,21 @@ const SearchPage = (props: Props) => {
         console.log(searchResult);
     };
 
-    useEffect(()=>{
+    useEffect(() => {
         getPortfolio();
-    },[])
+    }, [])
 
     const getPortfolio = () => {
         portfolioGetAPI()
             .then((res) => {
                 if (res?.data) {
                     setPortfolioValues(res?.data);
+                } else {
+                    setPortfolioValues([]);
                 }
             }).catch((e) => {
                 toast.warning("Could not get portfolio values!");
+                setPortfolioValues([]);
             })
     }
 
@@ -75,17 +78,21 @@ const SearchPage = (props: Props) => {
     return (
         <>
             {serverError && <h1>{serverError}</h1>}
-            <div className="App">
-                <SearchBar
-                    onSearchSubmit={onSearchSubmit}
-                    search={searchBarValue}
-                    handleSearchChange={handleSearchChange}
-                />
-                <ListPortfolio portfolioValues={portfolioValues} onPortfolioDelete={onPortfolioDelete} />
-                <CardList
-                    searchResults={searchResult}
-                    onPortfolioCreate={onPortfolioCreate}
-                />
+            <div className="grid grid-cols-3">
+                <div className = "grid-cols-subgrid col-span-2">
+                    <SearchBar
+                        onSearchSubmit={onSearchSubmit}
+                        search={searchBarValue}
+                        handleSearchChange={handleSearchChange}
+                    />
+                    <CardList
+                        searchResults={searchResult}
+                        onPortfolioCreate={onPortfolioCreate}
+                    />
+                </div>
+                <div>
+                    <ListPortfolio portfolioValues={portfolioValues} onPortfolioDelete={onPortfolioDelete} />
+                </div>
             </div>
         </>
     )

@@ -10,7 +10,7 @@ type Props = {
 const CardList = ({ searchResults, onPortfolioCreate }: Props): JSX.Element => {
   return (
     <>
-      <div className ="container mx-auto">
+      <div className ="container max-w-full mx-auto">
         {searchResults.length > 0 ? (
 
           searchResults.map((result) => {

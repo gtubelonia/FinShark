@@ -5,6 +5,7 @@ type Props = {
     symbol: string;
 }
 
+//Categorize stocks by industry and by top performers somehow?
 const AddPortfolio = (
     { onPortfolioCreate, symbol }: Props) => {
     return (
