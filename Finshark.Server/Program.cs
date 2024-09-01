@@ -22,16 +22,16 @@ builder.Services.AddSwaggerGen();
 
 builder.Services.AddCors(options =>
 {
-    options.AddPolicy("Test",
-                          policy =>
-                          {
-                              policy.WithOrigins("https://gtubelonia.github.io",
-                                                   "http://localhost:5173")
-                                                  .AllowAnyHeader()
-                                                  .AllowAnyMethod()
-                                                  .AllowCredentials()
-                                                  .SetIsOriginAllowed(origin => true);
-                          });
+   options.AddPolicy("Test",
+                         policy =>
+                         {
+                             policy.WithOrigins("https://gtubelonia.github.io",
+                                                  "http://localhost:5173")
+                                                 .AllowAnyHeader()
+                                                 .AllowAnyMethod()
+                                                 .AllowCredentials()
+                                                 .SetIsOriginAllowed(origin => true);
+                         });
 });
 
 //Add SqlConnection
