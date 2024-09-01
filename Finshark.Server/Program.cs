@@ -113,7 +113,7 @@ app.UseCors(x => x
 .AllowAnyMethod()
 .AllowAnyHeader()
 .AllowCredentials()
-//.WithOrigins("http://localhost:5097")
+.WithOrigins(["http://localhost:5097", "https://finsharkserverapi.azure-api.net/Portfolio"])
 .SetIsOriginAllowed(origin => true));
 
 app.UseAuthentication();
