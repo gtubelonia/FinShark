@@ -2,7 +2,7 @@ import { handleError } from "../Helpers/ErrorHandler";
 import { UserProfileToken } from "../Models/User";
 import axios from "axios";
 
-const api = `${import.meta.env.VITE_API_URL}/account/`;
+const api = `${import.meta.env.VITE_APP_API_URL}/account/`;
 
 export const loginUserAPI = async (username: string, password: string) => {
     try {
