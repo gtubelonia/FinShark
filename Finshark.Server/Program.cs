@@ -18,22 +18,6 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
-
-
-builder.Services.AddCors(options =>
-{
-   options.AddPolicy("Test",
-                         policy =>
-                         {
-                             policy.WithOrigins("https://gtubelonia.github.io",
-                                                  "http://localhost:5173")
-                                                 .AllowAnyHeader()
-                                                 .AllowAnyMethod()
-                                                 .AllowCredentials()
-                                                 .SetIsOriginAllowed(origin => true);
-                         });
-});
-
 //Add SqlConnection
 builder.Services.AddDbContext<ApplicationDBContext>(options =>
 {
@@ -97,13 +81,13 @@ if (app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 
-//app.UseCors(x => x
-//.AllowAnyMethod()
-//.AllowAnyHeader()
-//.AllowCredentials()
-//.WithOrigins("https://finsharkserverapi.azure-api.net", "http://finsharkserverapi.azure-api.net", "http://localhost:5173")
+app.UseCors(x => x
+.AllowAnyMethod()
+.AllowAnyHeader()
+.AllowCredentials()
+.WithOrigins("http://localhost:5173"));
 //.SetIsOriginAllowed(origin => true));
-app.UseCors("Test");
+//app.UseCors("Test");
 
 app.UseAuthentication();
 app.UseAuthorization();
