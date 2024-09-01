@@ -1,6 +1,5 @@
 using FinShark.Data;
 using FinShark.Interfaces;
-using FinShark.Migrations;
 using FinShark.Models;
 using FinShark.Repository;
 using FinShark.Service;
@@ -19,33 +18,33 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
-builder.Services.AddSwaggerGen(option =>
-{
-    option.SwaggerDoc("v1", new OpenApiInfo { Title = "Demo API", Version = "v1" });
-    option.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme
-    {
-        In = ParameterLocation.Header,
-        Description = "Please enter a valid token",
-        Name = "Authorization",
-        Type = SecuritySchemeType.Http,
-        BearerFormat = "JWT",
-        Scheme = "Bearer"
-    });
-    option.AddSecurityRequirement(new OpenApiSecurityRequirement
-    {
-        {
-            new OpenApiSecurityScheme
-            {
-                Reference = new OpenApiReference
-                {
-                    Type=ReferenceType.SecurityScheme,
-                    Id="Bearer"
-                }
-            },
-            new string[]{}
-        }
-    });
-});
+//builder.Services.AddSwaggerGen(option =>
+//{
+//    option.SwaggerDoc("v1", new OpenApiInfo { Title = "Demo API", Version = "v1" });
+//    option.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme
+//    {
+//        Scheme = "bearer",
+//        BearerFormat = "JWT",
+//        In = ParameterLocation.Header,
+//        Name = "Authorization",
+//        Description = "Bearer Authentication with JWT Token",
+//        Type = SecuritySchemeType.Http
+//    });
+//    option.AddSecurityRequirement(new OpenApiSecurityRequirement
+//    {
+//        {
+//            new OpenApiSecurityScheme
+//            {
+//                Reference = new OpenApiReference
+//                {
+//                    Type=ReferenceType.SecurityScheme,
+//                    Id="bearer"
+//                }
+//            },
+//            new string[]{}
+//        }
+//    });
+//});
 
 //Add SqlConnection
 builder.Services.AddDbContext<ApplicationDBContext>(options =>
