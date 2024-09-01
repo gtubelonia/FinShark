@@ -15,7 +15,7 @@ type CommentFormInputs = {
 };
 
 const StockComment = ({ stockSymbol }: Props) => {
-    const [comments, setComment] = useState<CommentGet[] | null>(null);
+    const [comments, setComments] = useState<CommentGet[] | null>(null);
     const [loading, setLoading] = useState<boolean>();
 
     useEffect(() => {
@@ -39,7 +39,7 @@ const StockComment = ({ stockSymbol }: Props) => {
         commentGetAPI(stockSymbol)
             .then((res) => {
                 setLoading(false);
-                setComment(res?.data!);
+                setComments(res?.data!);
 
             });
     }

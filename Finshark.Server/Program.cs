@@ -85,7 +85,7 @@ app.UseCors(x => x
 .AllowAnyMethod()
 .AllowAnyHeader()
 .AllowCredentials()
-.WithOrigins("http://localhost:5173"));
+.WithOrigins("http://localhost:5173", "https://gtubelonia.github.io"));
 //.SetIsOriginAllowed(origin => true));
 //app.UseCors("Test");
 

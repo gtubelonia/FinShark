@@ -21,7 +21,7 @@
     },
     "resourceName": {
       "type": "string",
-      "defaultValue": "FinSharkServer20240831170647",
+      "defaultValue": "FinSharkServer20240901113042",
       "metadata": {
         "description": "Name of the main resource to be created by this template."
       }

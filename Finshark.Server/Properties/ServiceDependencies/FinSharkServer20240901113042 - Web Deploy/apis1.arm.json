@@ -36,7 +36,7 @@
     },
     {
       "type": "Microsoft.Resources/deployments",
-      "name": "[concat(parameters('resourceGroupName'), 'Deployment', uniqueString(concat('FinSharkServerPortfolio', subscription().subscriptionId)))]",
+      "name": "[concat(parameters('resourceGroupName'), 'Deployment', uniqueString(concat('FinSharkServer', subscription().subscriptionId)))]",
       "resourceGroup": "[parameters('resourceGroupName')]",
       "apiVersion": "2019-10-01",
       "dependsOn": [
@@ -49,7 +49,7 @@
           "contentVersion": "1.0.0.0",
           "resources": [
             {
-              "name": "FinSharkServerapi",
+              "name": "FinSharkApi",
               "type": "Microsoft.ApiManagement/service",
               "location": "[parameters('resourceLocation')]",
               "properties": {
@@ -59,7 +59,7 @@
                 "hostnameConfigurations": [
                   {
                     "type": "Proxy",
-                    "hostName": "finsharkserverapi.azure-api.net",
+                    "hostName": "finsharkapi.azure-api.net",
                     "encodedCertificate": null,
                     "keyVaultId": null,
                     "certificatePassword": null,
@@ -95,14 +95,14 @@
             },
             {
               "type": "Microsoft.ApiManagement/service/apis",
-              "name": "FinSharkServerapi/FinSharkServerPortfolio",
+              "name": "FinSharkApi/FinSharkServer",
               "properties": {
-                "displayName": "FinSharkServerPortfolio",
+                "displayName": "FinSharkServer",
                 "apiRevision": "1",
                 "description": null,
                 "subscriptionRequired": true,
                 "serviceUrl": null,
-                "path": "Portfolio",
+                "path": "",
                 "protocols": [
                   "https"
                 ],
@@ -118,7 +118,7 @@
               },
               "apiVersion": "2019-12-01",
               "dependsOn": [
-                "FinSharkServerapi"
+                "FinSharkApi"
               ]
             }
           ]
