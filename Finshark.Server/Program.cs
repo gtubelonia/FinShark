@@ -18,33 +18,21 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
-//builder.Services.AddSwaggerGen(option =>
-//{
-//    option.SwaggerDoc("v1", new OpenApiInfo { Title = "Demo API", Version = "v1" });
-//    option.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme
-//    {
-//        Scheme = "bearer",
-//        BearerFormat = "JWT",
-//        In = ParameterLocation.Header,
-//        Name = "Authorization",
-//        Description = "Bearer Authentication with JWT Token",
-//        Type = SecuritySchemeType.Http
-//    });
-//    option.AddSecurityRequirement(new OpenApiSecurityRequirement
-//    {
-//        {
-//            new OpenApiSecurityScheme
-//            {
-//                Reference = new OpenApiReference
-//                {
-//                    Type=ReferenceType.SecurityScheme,
-//                    Id="bearer"
-//                }
-//            },
-//            new string[]{}
-//        }
-//    });
-//});
+
+
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("Test",
+                          policy =>
+                          {
+                              policy.WithOrigins("https://gtubelonia.github.io",
+                                                   "http://localhost:5173")
+                                                  .AllowAnyHeader()
+                                                  .AllowAnyMethod()
+                                                  .AllowCredentials()
+                                                  .SetIsOriginAllowed(origin => true);
+                          });
+});
 
 //Add SqlConnection
 builder.Services.AddDbContext<ApplicationDBContext>(options =>
@@ -109,13 +97,13 @@ if (app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 
-app.UseCors(x => x
-//.AllowAnyOrigin()
-.AllowAnyMethod()
-.AllowAnyHeader()
-.AllowCredentials()
-.WithOrigins("http://localhost:5173/", "https://gtubelonia.github.io/FinShark/")
-.SetIsOriginAllowed(origin => true));
+//app.UseCors(x => x
+//.AllowAnyMethod()
+//.AllowAnyHeader()
+//.AllowCredentials()
+//.WithOrigins("https://finsharkserverapi.azure-api.net", "http://finsharkserverapi.azure-api.net", "http://localhost:5173")
+//.SetIsOriginAllowed(origin => true));
+app.UseCors("Test");
 
 app.UseAuthentication();
 app.UseAuthorization();
