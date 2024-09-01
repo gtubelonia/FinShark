@@ -110,10 +110,11 @@ if (app.Environment.IsDevelopment())
 app.UseHttpsRedirection();
 
 app.UseCors(x => x
+.AllowAnyOrigin()
 .AllowAnyMethod()
 .AllowAnyHeader()
 .AllowCredentials()
-.WithOrigins(["http://localhost:5173", "https://gtubelonia.github.io/FinShark/"])
+//.WithOrigins(["http://localhost:5173", "https://gtubelonia.github.io/FinShark/"])
 .SetIsOriginAllowed(origin => true));
 
 app.UseAuthentication();
