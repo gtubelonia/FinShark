@@ -2,7 +2,7 @@ import { handleError } from "../Helpers/ErrorHandler";
 import { CommentGet, CommentPost } from "../Models/Comment";
 import axios from "axios";
 
-const api = "http://localhost:5097/api/comment/";
+const api = `${import.meta.env.VITE_API_URL}/comment/`;
 
 export const commentPostAPI = async (title: string, content: string, symbol: string) => {
     try {
