@@ -10,8 +10,8 @@ const StockCommentList = ({ comments }: Props) => {
     return (
         <>
             {comments ?
-                comments.map((comment) => {
-                    return <StockCommentListItem comment={comment} />;
+                comments.map((comment, i) => {
+                    return <StockCommentListItem key={JSON.stringify(comment)} comment={comment} />;
                 })
                 : ""
             }
