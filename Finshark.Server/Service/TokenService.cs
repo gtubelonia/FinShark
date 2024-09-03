@@ -7,6 +7,7 @@ using System.Text;
 
 namespace FinShark.Service
 {
+    //TODO can convert ADD an API service for future micro services?
     public class TokenService : ITokenService
     {
         private readonly IConfiguration _config;
