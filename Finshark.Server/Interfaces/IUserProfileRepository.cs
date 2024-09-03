@@ -8,7 +8,7 @@ namespace FinShark.Interfaces
     {
         Task<Models.UserProfile?> GetByUserAsync(AppUser appUser);
         Task<Models.UserProfile> CreateAsync(UserProfile userProfile);
-        Task<Models.UserProfile?> UpdateAsync(AppUser appUser, UserProfile updateUserProfile);
+        Task<Models.UserProfile?> UpdateAsync(AppUser appUser, ProfileDto updateUserProfile);
         Task<Models.UserProfile?> DeleteAsync(AppUser appUser);
     }
 }

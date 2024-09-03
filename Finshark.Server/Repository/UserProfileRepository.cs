@@ -1,4 +1,5 @@
 using FinShark.Data;
+using FinShark.Dtos.Comment;
 using FinShark.Interfaces;
 using FinShark.Models;
 using Microsoft.EntityFrameworkCore;
@@ -35,17 +36,10 @@ public class UserProfileRepository : IUserProfileRepository
 
     public async Task<UserProfile?> GetByUserAsync(AppUser appUser)
     {
-        var userProfileModel = await _context.UserProfiles.FirstOrDefaultAsync(x => x.AppUserId == appUser.Id);
-
-        if (userProfileModel == null)
-        {
-            return null;
-        }
-
-        return userProfileModel;
+        return await _context.UserProfiles.FirstOrDefaultAsync(x => x.AppUserId == appUser.Id);
     }
 
-    public async Task<UserProfile?> UpdateAsync(AppUser appUser, UserProfile updateUserProfile)
+    public async Task<UserProfile?> UpdateAsync(AppUser appUser, ProfileDto updateUserProfile)
     {
         var existingUserProfile = await _context.UserProfiles.FirstOrDefaultAsync(x => x.AppUserId == appUser.Id);
 
@@ -63,3 +57,4 @@ public class UserProfileRepository : IUserProfileRepository
         return existingUserProfile;
     }
 }
+

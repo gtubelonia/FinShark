@@ -16,7 +16,31 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
-builder.Services.AddSwaggerGen();
+builder.Services.AddSwaggerGen(options =>
+{
+    options.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme()
+    {
+        Name = "Authorization",
+        In = ParameterLocation.Header,
+        Type = SecuritySchemeType.Http,
+        Scheme = "Bearer"
+    });
+
+    options.AddSecurityRequirement(new OpenApiSecurityRequirement
+    {
+        {
+            new OpenApiSecurityScheme
+            {
+                Reference = new OpenApiReference
+                {
+                    Type = ReferenceType.SecurityScheme,
+                    Id = "Bearer"
+                }
+            },
+            Array.Empty<string>()
+        }
+    });
+});
 
 //Add SqlConnection
 builder.Services.AddDbContext<ApplicationDBContext>(options =>
@@ -87,8 +111,6 @@ app.UseCors(x => x
 .AllowAnyHeader()
 .AllowCredentials()
 .WithOrigins("http://localhost:5173", "https://gtubelonia.github.io"));
-//.SetIsOriginAllowed(origin => true));
-//app.UseCors("Test");
 
 app.UseAuthentication();
 app.UseAuthorization();
