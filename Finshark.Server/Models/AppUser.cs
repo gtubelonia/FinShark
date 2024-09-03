@@ -7,5 +7,7 @@ namespace FinShark.Models
     {
         public List<StockPortfolio> StockPortfolios { get; set; } = new List<StockPortfolio>();
 
+        public UserProfile? userProfile { get; set; }
+
     }
 }
